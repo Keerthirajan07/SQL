@@ -1,0 +1,7 @@
+SELECT *
+FROM (
+      SELECT *, @rowNumber := @rowNumber+ 1 rn
+      FROM EmployeeSalary
+      JOIN (SELECT @rowNumber:= 0) r
+     ) t 
+WHERE rn % 2 = 0;
