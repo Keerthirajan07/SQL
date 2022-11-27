@@ -1,0 +1,2 @@
+Select MAX(Stu_Marks) from Student   
+where Stu_Marks NOT IN (Select MAX(Stu_Marks) from Student);  
