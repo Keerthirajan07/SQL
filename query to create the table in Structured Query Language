@@ -1,0 +1,8 @@
+CREATE TABLE table_name  
+(  
+column_Name1 data type (size of the column),    
+column_Name2 data type (size of the column),    
+column_Name3 data type (size of the column),    
+...    
+column_NameN data type (size of the column)  
+);    
