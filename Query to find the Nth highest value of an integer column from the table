@@ -1,0 +1,7 @@
+SELECT TOP 1 Stu_Marks  
+FROM (  
+SELECT DISTINCT TOP N Stu_Marks  
+FROM Student  
+ORDER BY Stu_Marks DESC  
+)  
+ORDER BY Stu_Marks ASC;  
